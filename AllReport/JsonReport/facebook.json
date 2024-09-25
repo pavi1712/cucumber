@@ -1,0 +1,160 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-22T08:50:12.728Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1585600,
+              "status": "passed"
+            },
+             "match": {
+              "location": "Hooks.bfr1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7159800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfr2()"
+            }
+          },
+          {
+           "result": {
+              "duration": 631600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfr3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 608300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.bfr()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To validate the Login Functionality as invalid username and valid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-the-login-functionality-as-invalid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1051100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2242400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 538500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 502800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after3()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User have to launch the  facebook application through chrome browser",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2405500,
+              "status": "skipped"
+            },
+            line": 9,
+            "name": "User have to enter invalid username and valid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_invalid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90433100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User have to click the Login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7389400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User have to reach the invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_have_to_reach_the_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Login Functionality of Facebook Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/USER/Desktop/WS/Cucumber/src/test/resources/FeatureFile/Login.feature",
+    "tags": [
+        {
+        "name": "@regression",
+        "type": "Tag",
+        "location":
+ 
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
